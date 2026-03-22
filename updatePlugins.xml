@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+  <plugin id="drew.darculaPitchBlackCustomTheme" url="https://example.invalid/JetBrainsTheme/repository/files/darcula-pitch-black-custom-1.0.0-local.jar" version="1.0.0-local">
+    <idea-version since-build="191.0"/>
+    <name>Darcula Pitch Black Custom</name>
+    <description><![CDATA[Local fork of Darcula Pitch Black.]]></description>
+    <vendor>drew</vendor>
+    <depends>com.intellij.modules.lang</depends>
+  </plugin>
+</plugins>

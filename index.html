@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Darcula Pitch Black Custom Repository</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0d0d0e;
+      --panel: #17181a;
+      --line: #2b2d30;
+      --text: #ececec;
+      --muted: #9aa0a8;
+      --link: #7fb1ff;
+    }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top, #202225 0, var(--bg) 48%);
+      color: var(--text);
+      font: 16px/1.5 system-ui, sans-serif;
+    }
+    main {
+      max-width: 760px;
+      margin: 48px auto;
+      padding: 24px;
+      background: color-mix(in srgb, var(--panel) 92%, black);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+    }
+    h1 { margin-top: 0; }
+    code, pre {
+      font: 14px/1.45 ui-monospace, monospace;
+      background: #111214;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+    }
+    code { padding: 0.15rem 0.35rem; }
+    pre { padding: 16px; overflow: auto; }
+    a { color: var(--link); }
+    .muted { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Darcula Pitch Black Custom</h1>
+    <p class="muted">Plugin ID: <code>drew.darculaPitchBlackCustomTheme</code></p>
+    <p class="muted">Version: <code>1.0.0-local</code></p>
+    <p>Add this repository URL in JetBrains IDEs:</p>
+    <pre><code>https://example.invalid/JetBrainsTheme/repository/updatePlugins.xml</code></pre>
+    <p>Install flow:</p>
+    <pre><code>Settings -> Plugins -> gear icon -> Manage Plugin Repositories
+Add: https://example.invalid/JetBrainsTheme/repository/updatePlugins.xml</code></pre>
+    <p>Direct plugin download:</p>
+    <pre><code><a href="https://example.invalid/JetBrainsTheme/repository/files/darcula-pitch-black-custom-1.0.0-local.jar">https://example.invalid/JetBrainsTheme/repository/files/darcula-pitch-black-custom-1.0.0-local.jar</a></code></pre>
+  </main>
+</body>
+</html>
