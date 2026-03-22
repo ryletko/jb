@@ -3,7 +3,14 @@
   <plugin id="drew.darculaPitchBlackCustomTheme" url="https://ryletko.github.io/jb/files/darcula-pitch-black-custom-1.0.0-local.jar" version="1.0.0-local">
     <idea-version since-build="191.0"/>
     <name>Darcula Pitch Black Custom</name>
-    <description><![CDATA[Local fork of Darcula Pitch Black.]]></description>
+    <description><![CDATA[Local fork of Darcula Pitch Black. <br/><br/> This plugin uses a custom plugin id so WebStorm updates and upstream plugin updates do not overwrite local changes. <br/><br/>]]></description>
+    <vendor>drew</vendor>
+    <depends>com.intellij.modules.lang</depends>
+  </plugin>
+  <plugin id="drew.islandsDarkBlackEditorTheme" url="https://ryletko.github.io/jb/files/islands-dark-black-editor-1.0.0-local.jar" version="1.0.0-local">
+    <idea-version since-build="191.0"/>
+    <name>Islands Dark Black Editor</name>
+    <description><![CDATA[Local fork of Islands Dark with a black code editor background.]]></description>
     <vendor>drew</vendor>
     <depends>com.intellij.modules.lang</depends>
   </plugin>

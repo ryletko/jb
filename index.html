@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Darcula Pitch Black Custom Repository</title>
+  <title>JetBrains Theme Repository</title>
   <style>
     :root {
       color-scheme: dark;
@@ -39,20 +39,42 @@
     pre { padding: 16px; overflow: auto; }
     a { color: var(--link); }
     .muted { color: var(--muted); }
+    .card {
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+    }
+    .card:first-of-type {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: 0;
+    }
   </style>
 </head>
 <body>
   <main>
-    <h1>Darcula Pitch Black Custom</h1>
-    <p class="muted">Plugin ID: <code>drew.darculaPitchBlackCustomTheme</code></p>
-    <p class="muted">Version: <code>1.0.0-local</code></p>
+    <h1>JetBrains Theme Repository</h1>
     <p>Add this repository URL in JetBrains IDEs:</p>
     <pre><code>https://ryletko.github.io/jb/updatePlugins.xml</code></pre>
     <p>Install flow:</p>
     <pre><code>Settings -> Plugins -> gear icon -> Manage Plugin Repositories
 Add: https://ryletko.github.io/jb/updatePlugins.xml</code></pre>
-    <p>Direct plugin download:</p>
-    <pre><code><a href="https://ryletko.github.io/jb/files/darcula-pitch-black-custom-1.0.0-local.jar">https://ryletko.github.io/jb/files/darcula-pitch-black-custom-1.0.0-local.jar</a></code></pre>
+    <section class="card">
+      <h2>Darcula Pitch Black Custom</h2>
+      <p class="muted">Plugin ID: <code>drew.darculaPitchBlackCustomTheme</code></p>
+      <p class="muted">Version: <code>1.0.0-local</code></p>
+      <p>Local fork of Darcula Pitch Black. <br/><br/> This plugin uses a custom plugin id so WebStorm updates and upstream plugin updates do not overwrite local changes. <br/><br/></p>
+      <p>Direct plugin download:</p>
+      <pre><code><a href="https://ryletko.github.io/jb/files/darcula-pitch-black-custom-1.0.0-local.jar">https://ryletko.github.io/jb/files/darcula-pitch-black-custom-1.0.0-local.jar</a></code></pre>
+    </section>
+    <section class="card">
+      <h2>Islands Dark Black Editor</h2>
+      <p class="muted">Plugin ID: <code>drew.islandsDarkBlackEditorTheme</code></p>
+      <p class="muted">Version: <code>1.0.0-local</code></p>
+      <p>Local fork of Islands Dark with a black code editor background.</p>
+      <p>Direct plugin download:</p>
+      <pre><code><a href="https://ryletko.github.io/jb/files/islands-dark-black-editor-1.0.0-local.jar">https://ryletko.github.io/jb/files/islands-dark-black-editor-1.0.0-local.jar</a></code></pre>
+    </section>
   </main>
 </body>
 </html>
